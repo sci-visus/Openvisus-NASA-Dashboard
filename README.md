@@ -86,3 +86,20 @@ We understand that extracting a region from this huge dataset can be extremely u
  - *Add This Range*: In other cases where the original dashboard is showing range thats not including the range in detailed view or if users changed the range previously and wants to manually manipulate the range, clicking `Add This Range` will change the min/max in the orginal dashboard ensuring that the new range is included. For example, if the main dashboard is showing range from `-1` to `1`, and users selected a region that had values ranging `-2` to `1.5`, clicking this will update the color range in main dashboard to include highest minima and maxima values, i.e. `-2` to `1.5` in this case.
 
  - *Detailed Stats*: The detailed view also shows the minimum and amximum value for the selected region. If users want to download the data locally, it also shows the approximate file size. Again, this is set to a 20 MB max so that users don't accidentally download large chunk of data in their local machine without being aware of.
+
+
+ ---
+ ### Contact
+
+ Please feel free to contact us here for detailed information:
+  - Aashish Panta [Email me](mailto:aashishpanta0@gmail.com)
+  - Giorgio Scorzelli [Email me](mailto:scrgiorgio@gmail.com)
+  - Valerio Pascucci [Email me](mailto:pascucci.valerio@gmail.com)
+
+  --- 
+  ### Related Works
+
+
+1 . Pascucci, Valerio, et al. "The ViSUS visualization framework." High Performance Visualization. Chapman and Hall/CRC, 2012. 439-452. [Here](https://www.taylorfrancis.com/chapters/edit/10.1201/b12985-32/visus-visualization-framework-valerio-pascucci-giorgio-scorzelli-brian-summa-peer-timo-bremer-attila-gyulassy-cameron-christensen-sujin-philip-sidharth-kumar)
+2.  Brian Summa, Giorgio Scorzelli, Ming Jiang, Peer-Timo Bremer, and Valerio Pascucci. 2011. Interactive editing of massive imagery made simple: Turning Atlanta into Atlantis. ACM Trans. Graph. 30, 2, Article 7 (April 2011), 13 pages. [Here](https://dl.acm.org/doi/10.1145/1944846.1944847)
+
