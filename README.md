@@ -43,7 +43,7 @@ It is basically cloning a repo, setting up the environment and installing requir
 ![Dashboard](./images/dashboard_homepage.png)
 
 **4. Interactivity**
-There are several interactive options available wihtin the dashboard. 
+There are several interactive options available within the dashboard. 
 
 - *Dataset*: you can click dropdown option called `scene` at the topmost left and get a list of dataset available
 - *Time*: You can change the timeslider called `Time` to get any timesteps. There are more than 10000 timesteps available from the original simulation.
@@ -75,6 +75,7 @@ We understand that extracting a region from this huge dataset can be extremely u
  When a selection box is clicked from bokeh toolbar and a bounding box is drawn on the image, it queries for the higher resolution data in that selection region. We limit the size to be either 20MB or highest resolution possible without going over this limit. The detailed view looks like this:
 
  ![Detailed Window](./images/detailed_window.png)
+
  Some of the features available in this window are mentioned below:
  - *Download the numpy array*: Users have the option to save the selected data into their local machine as a numpy array. It captures both the data and their relative position in the data nad save it as a `.npz` file which can then  be loaded with `numpy` and can be used anywhere numpy is supported.
 
