@@ -1,3 +1,5 @@
 .venv
 openvisuspy
 .DS_Store
+visus_cache_can_be_erased
+.ipynb_checkpoints
