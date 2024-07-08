@@ -1,6 +1,6 @@
 {
-  "name": "Openvisus_NASA",
-  "image": "nsdf/openvisuspy",
+  "name": "OpenVisus NASA Dashboard",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
@@ -8,6 +8,6 @@
     "ms-python.python",
     "ms-toolsai.jupyter"
   ],
-  "remoteUser": "vscode",
-  "postCreateCommand": "pip install --upgrade pip && pip install numpy openvisus matplotlib jupyterlab ipykernel"
+  "postStartCommand": "python -m venv /workspace/.venv && source /workspace/.venv/bin/activate && pip install numpy openvisus matplotlib jupyterlab ipykernel",
+  "remoteUser": "vscode"
 }
