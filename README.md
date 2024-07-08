@@ -11,9 +11,56 @@ Publicly available dashboards for different purposed can be available from the l
 [```http://chpc3.nationalsciencedatafabric.org:11857/run```](http://chpc3.nationalsciencedatafabric.org:11857/run)
 
 ---
-## Instructions to launch dashboard using NASA LLC2160 dataset from your machine
+## Instructions to launch dashboard using NASA LLC2160 dataset from your machine or Github Codespaces
+
+--- 
+## To run the dashboard using Github Codespaces:
+
+From this repository, click on dropdown 'Code' and select 'Create Codespace on main'. See attached image:
+<figure>
+    <img src="images/codespace1.png" alt="drawing" width="200"/>
+    <figcaption>Step 1 and 2 to launch Github Codespaces</figcaption>
+</figure>
+
+This will take you to a GitHub Codespace, which can take upto 3 minutes to install all required dependencies. After this, you will be able to see an interface like this. Now, do the following:
+
+- Click 'Run All'. 
+- A popup will apprear asking you to select Kernel. From there, select 'Python Environments'
+- Select 'OpenVisus-NASA'
+
+<figure>
+    <img src="images/codespace2.png" alt="drawing" width="400"/>
+    <figcaption></figcaption>
+</figure>
+<figure>
+    <img src="images/runall.png" alt="drawing" width="400"/>
+    <figcaption>Step 3: Select 'Run All'</figcaption>
+</figure>
+<figure>
+    <img src="images/pythonenv.png" alt="drawing" width="400"/>
+    <figcaption>Step 4: Select 'Python Environments'</figcaption>
+</figure>
+<figure>
+    <img src="images/openvisus-nasa.png" alt="drawing" width="400"/>
+    <figcaption>Step 5: Select 'OpenVisus-NASA'</figcaption>
+</figure>
+
+If you are familiar with VS code, you should be able to execute the rest of the code now.
+You can explore the jupyter notebooks now.
+
+To launch the dashboard from here, do `sh setup.sh`. This will download other remaining dependencies. It will look like this image [Scroll to Installation](#installation-terminal)
 
 
+After this installation is completed, click on the url at the end of the terminal, and it will automatically redirect you to the forwarded port with codespace. It looks like this:
+<figure>
+    <img src="images/link.png" alt="drawing" width="400"/>
+    <figcaption>Step 6: Follow the link</figcaption>
+</figure>
+Please click this link here. DONOT copy and paste the link. 
+
+
+----
+## To run the dashboard from your local machine:
 ### Basic Pre-requirements
 - Download [Python](https://www.python.org/downloads/) version > 3.8 and version< 3.12 depending on your  OS
 - Install and setup latest version of [Git](https://git-scm.com/downloads) 
@@ -33,8 +80,10 @@ Publicly available dashboards for different purposed can be available from the l
 - This code uses port `8989` by default. If this port is already in use, please feel free to change it in the first line in the [`setup.sh`](setup.sh) file and run again.
 
 - Once the installation completes, you should see something like this: 
-![Installation Terminal](./images/installation.png)
-
+<div id="installation-terminal">
+  <img src="./images/installation.png" alt="Installation Terminal" width="600"/>
+ 
+</div>
 It is basically cloning a repo, setting up the environment and installing required dependencies to run the dashboard properly. It could take upto 3 minutes but your internet speed can affect this time.
 
 **3. Visit the Dashboard**
