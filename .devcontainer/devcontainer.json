@@ -15,6 +15,6 @@
     "h5web.vscode-h5web",
     "davidanson.vscode-markdownlint"
   ],
-  "postCreateCommand": "./.devcontainer/setup-hooks.sh"
+  "postCreateCommand": "chmod +x .devcontainer/setup-hooks.sh && ./.devcontainer/setup-hooks.sh"
 
 }
