@@ -1,13 +1,18 @@
 {
   "name": "OpenVisus NASA Dashboard",
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.10-bullseye",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
   "settings": {
+    "python.defaultInterpreterPath": "/opt/conda/envs/OpenVisus-NASA/bin/python",
+    "python.languageServer": "Default",
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "extensions": [
     "ms-python.python",
-    "ms-toolsai.jupyter"
-  ],
-  "postStartCommand": "python -m venv /workspaces/.venv && source /workspaces/.venv/bin/activate && pip install numpy openvisus matplotlib jupyterlab ipykernel",
-  "remoteUser": "vscode"
+    "ms-toolsai.jupyter",
+    "ms-vscode.cpptools",
+    "h5web.vscode-h5web",
+    "davidanson.vscode-markdownlint"
+  ]
 }
