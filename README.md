@@ -20,7 +20,7 @@ From this repository, click on dropdown 'Code' and select 'Create Codespace on m
 <figure>
     <img src="images/codespace1.png" alt="drawing" width="200"/>
     <figcaption>Step 1 and 2 to launch Github Codespaces</figcaption>
-</figure>
+</figure></br>
 
 This will take you to a GitHub Codespace, which can take upto 3 minutes to install all required dependencies. After this, you will be able to see an interface like this. Now, do the following:
 
@@ -32,18 +32,24 @@ This will take you to a GitHub Codespace, which can take upto 3 minutes to insta
     <img src="images/codespace2.png" alt="drawing" width="400"/>
     <figcaption></figcaption>
 </figure>
+</br>
+
 <figure>
     <img src="images/runall.png" alt="drawing" width="400"/>
     <figcaption>Step 3: Select 'Run All'</figcaption>
 </figure>
+</br>
+
 <figure>
     <img src="images/pythonenv.png" alt="drawing" width="400"/>
     <figcaption>Step 4: Select 'Python Environments'</figcaption>
 </figure>
+</br>
 <figure>
     <img src="images/openvisus-nasa.png" alt="drawing" width="400"/>
     <figcaption>Step 5: Select 'OpenVisus-NASA'</figcaption>
 </figure>
+</br>
 
 If you are familiar with VS code, you should be able to execute the rest of the code now.
 You can explore the jupyter notebooks now.
@@ -56,7 +62,8 @@ After this installation is completed, click on the url at the end of the termina
     <img src="images/link.png" alt="drawing" width="400"/>
     <figcaption>Step 6: Follow the link</figcaption>
 </figure>
-Please click this link here. DONOT copy and paste the link. 
+
+Please click this link here. DO NOT copy and paste the link. 
 
 
 ----
