@@ -5,8 +5,9 @@
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "extensions": [
-    "ms-python.python"
+    "ms-python.python",
+    "ms-toolsai.jupyter"
   ],
-  "postCreateCommand": "pip install --upgrade pip && pip install numpy openvisus matplotlib",
+  "postCreateCommand": "pip install --upgrade pip && pip install numpy openvisus matplotlib jupyterlab ipykernel",
   "remoteUser": "vscode"
 }
