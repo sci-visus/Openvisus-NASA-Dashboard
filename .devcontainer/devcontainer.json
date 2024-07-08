@@ -14,5 +14,7 @@
     "ms-vscode.cpptools",
     "h5web.vscode-h5web",
     "davidanson.vscode-markdownlint"
-  ]
+  ],
+  "postCreateCommand": "./.devcontainer/setup-hooks.sh"
+
 }
