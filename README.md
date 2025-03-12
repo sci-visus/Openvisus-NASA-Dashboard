@@ -10,6 +10,10 @@ Publicly available dashboards for different purposed can be available from the l
 - NASA Coupled Dashboard for studying relationships between oceanic and atmospheric variables
 [```https://chpc3.nationalsciencedatafabric.org:11857/run```](https://chpc3.nationalsciencedatafabric.org:11857/run)
 
+- NASA CMIP6 Dataset
+[```https://chpc3.nationalsciencedatafabric.org:12347/```](https://chpc3.nationalsciencedatafabric.org:12347/)
+
+
 ---
 ## Instructions to launch dashboard using NASA LLC2160 dataset from your machine or Github Codespaces
 
